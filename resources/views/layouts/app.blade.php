@@ -23,7 +23,7 @@
     <div id="app">
         <section class="px-8 py-4">
             <header class="container mx-auto">
-                <h1 class="flex text-xl text-gray-1200 leading-tight">Tweety
+                <h1 class="flex font-bold text-xl text-gray-1200 leading-tight">Tweety
                     <img
                         class="h-16 w-16"
                         src="/images/tweet.svg"
