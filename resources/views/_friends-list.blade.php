@@ -2,7 +2,7 @@
 
 <ul>
     @foreach (range(1,8) as $index)
-    <li class="mb-2">
+    <li class="mb-4">
         <div class="flex items-center text-sm">
             <img
                 src="https://i.pravatar.cc/40"

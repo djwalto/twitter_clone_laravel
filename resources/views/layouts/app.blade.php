@@ -20,15 +20,15 @@
     <link href="{{ asset('css/main.css') }}" rel="stylesheet">
 </head>
 <body>
+
     <div id="app">
-        <section class="px-8 py-4">
+        <section class="px-8 py-4 mb-6">
             <header class="container mx-auto">
-                <h1 class="flex font-bold text-xl text-gray-1200 leading-tight">Tweety
+                <h1 class="flex font-bold text-xl text-gray-1200 leading-tight">
                     <img
-                        class="h-16 w-16"
-                        src="/images/tweet.svg"
-                    >
-                </h1>
+                    class="h-16 w-16"
+                    src="/images/feather.svg"
+                >Tweety
             </header>
         </section>
 
@@ -36,7 +36,7 @@
             <main class="container mx-auto">
                 @yield('content')
             </main>
-    </section>
+        </section>
     </div>
 </body>
 </html>
