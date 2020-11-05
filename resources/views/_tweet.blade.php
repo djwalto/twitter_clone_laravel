@@ -4,10 +4,12 @@
     </div>
 
     <div>
-        <h5 class="font-bold mb-4">{{ $tweet->user->name }}</h5>
+        <h5 class="font-bold mb-4">John Doe</h5>
 
         <p class="text-sm">
-            {{ $tweet->body }}
+            Now I know what you're thinking, "this is an atrocity, what a horrible mess!" and you're right, it's kind of
+            ugly. In fact it's just about impossible to think this is a good idea the first time you see it — you have
+            to actually try it.
         </p>
 
     </div>
