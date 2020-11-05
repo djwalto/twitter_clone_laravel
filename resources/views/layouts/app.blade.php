@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -19,16 +20,14 @@
     <!-- Styles -->
     <link href="{{ asset('css/main.css') }}" rel="stylesheet">
 </head>
+
 <body>
 
     <div id="app">
         <section class="px-8 py-4 mb-6">
             <header class="container mx-auto">
                 <h1 class="flex font-bold text-xl text-gray-1200 leading-tight">
-                    <img
-                    class="h-16 w-16"
-                    src="/images/feather.svg"
-                >Tweety
+                    <img class="h-16 w-16" src="/images/feather.svg">Tweety
             </header>
         </section>
 
@@ -39,4 +38,5 @@
         </section>
     </div>
 </body>
+
 </html>
